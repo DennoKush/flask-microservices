@@ -1,11 +1,13 @@
 ## Microservice architecture for a book store using Flask, Docker and Python.
 ### There are 4 different services that are lightweight, independently deployable, testable and managed.
 
-### Services
+### <u> Services </u>
 
-1. User
+### 1. User
 
 user authentication, login, logout
+
+##### Endpoints 
 
 - /api/user/all - GET 
 - /api/user/create - POST
@@ -14,11 +16,11 @@ user authentication, login, logout
 - /api/user/`<username>`/exists  - GET
 - /api/user/  - GET
 
-2. Book
+### 2. Book
 
 Keeps track of all the books we have in the store. 
 
-### Endpoints
+##### Endpoints
 
 /api/book/all - GET
 - Returns all books
@@ -30,11 +32,11 @@ Keeps track of all the books we have in the store.
 - Returns book matching the slug
 
 
-3. Order
+### 3. Order
 
 Takes care of the ordering part
 
-### Endpoints
+##### Endpoints
 
 /api/order/ - GET
 - Gets open orders for currently logged in user
@@ -48,6 +50,6 @@ Takes care of the ordering part
 /api/order/checkout  - POST
 - marks open orders as closed
 
-4. Frontend
+### 4. Frontend
 
 End user interfaces with this service
