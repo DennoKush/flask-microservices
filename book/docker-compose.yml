@@ -9,7 +9,7 @@ services:
     build:
       context: .
     ports:
-      - "5001:5001"
+      - "5002:5002"
     volumes:
       - bookapp:/bookapp
     restart: always
