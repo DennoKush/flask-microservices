@@ -7,10 +7,6 @@ business domains, they avoid the problems of traditional monolithic architecture
 This project has 4 different microservices, `user`, `book`, `order` and `frontend`. They are 
 lightweight, independently deployable, testable and managed.
 
-### Table of contents
-- [How to run the project](How to run the project)
-- [Resources](Resources)
-
 #### How to run the project
 
 cd into the frontend directory and fun this command
